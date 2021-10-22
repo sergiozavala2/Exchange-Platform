@@ -1,11 +1,15 @@
 import logo from './assets/img/Bitcoin-Logo.png';
 import './App.css';
 import Welcome from './Welcome';
+import CoinAPI from './CoinAPI';
+import CoinMarket from './CoinMarket';
 
 function App() {
   return (
     <div className = "App">
       <Welcome />
+      <CoinAPI />
+      {/* <CoinMarket /> */}
     </div>
     
 /*     

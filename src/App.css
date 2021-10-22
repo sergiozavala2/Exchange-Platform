@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #060542;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.topnav {
+  background-color: #050457;
+  overflow: hidden;
+  
+}
+

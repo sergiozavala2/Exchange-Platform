@@ -7,7 +7,7 @@ import CoinMarket from './CoinMarket';
 function App() {
   return (
     <div className = "App">
-      <Welcome />
+      {/* <Welcome /> */}
       <CoinAPI />
       {/* <CoinMarket /> */}
     </div>

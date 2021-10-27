@@ -43,116 +43,20 @@
   justify-content: right;
 }
 
+.App-header-Phone-Logo {
+  background-color: #fbfbff;
+  /* min-height: 50vh; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .App-link {
   color: #060542;
 }
 
-/* .container {
-  position: relative;
-  width: 100%;
-  max-width: 1296px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 24px;
-  padding-left: 24px;
-  perspective: 500px;
-}
-.w-container .w-row {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-.w-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 940px;
-}
 
-.h1.dark-section {
-  color: rgb(5, 1, 1);
-}
-
-.h1 {
-  font-family: Inter, sans-serif;
-  font-size: 48px;
-  line-height: 124%;
-  font-weight: 700;
-  letter-spacing: -.02em;
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.w-col {
-  position: relative;
-  float: left;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.w-col-6 {
-  width: 50%;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-} */
-
-/* .topnav {
-  background-color: #050457;
-  overflow: hidden;
-  height: 100px;
-  width: auto;
-  
-} */
-
-/* Trying out the code for hero on coin market cap  */
-html.w-mod-touch * {
-  background-attachment: scroll!important;
-}
-
-.hero {
-  display: block;
-  overflow: hidden;
-}
-
-.body {
-  padding-bottom: 0;
-  background-color: #fff;
-  color: rgb(243, 237, 237);
-}
-
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  margin: 0;
-  min-height: 100%;
-  padding-bottom: 96px;
-  background-color: #fbfbff;
-  font-family: Inter,sans-serif;
-  color: #eff0f5;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-}
+/* New code  */
 
 .container {
   position: relative;
@@ -172,90 +76,183 @@ body {
   max-width: 940px;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-div {
-  display: block;
-}
-
-.body {
-  padding-bottom: 0;
-  background-color: #fff;
-  color: #000;
-}
-
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
 .columns {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
-.w-row:after, .w-row:before {
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
-.column-8 {
-  position: static;
-}
-
-.w-col-6 {
-  width: 50%;
+.column-1 {
+  overflow: visible;
+  padding-right: 64px;
 }
 
 .w-col {
   position: relative;
-  float: left;
-  width: 100%;
+  float: right;
+  /* width: 100%; */
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
+
 }
 
-.display-heading-3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 88%;
+.w-col-phone {
+  position: relative;
+  top: -100px;
+  float: right;
+  padding-right: 40px;
+  
+}
+
+.w-col-6 {
+  width: 70%;
+}
+
+.heading-label.color-primary {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.heading-label {
+  margin-top: 10px;
+  margin-bottom: 25px; 
+  font-family: Inter,sans-serif;
+  color: #3861fb;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0;
   margin-bottom: 24px;
+}
+
+.h1 {
   font-family: Inter,sans-serif;
   color: #000;
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 48px;
+  line-height: 1px;
   font-weight: 700;
   letter-spacing: -.02em;
+  justify-content: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
-.paragrah-large {
-  width: 72%;
-  padding-top: 8px;
+.h3 {
   font-family: Inter,sans-serif;
-  color: #000;
-  font-size: 21px;
+  color: black;
+  font-size: 48px;
+  line-height: 1px;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  justify-content: right;
+  margin-bottom: 25px;
+}  
+
+div.b {
+  text-align: left;
+  padding-left: 300px;
+}
+
+div.v {
+  text-align: right;
+  padding-right: 600px;
+  margin-top: 130px;
+}
+
+div.w {
+  text-align: right;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+div.x {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+div.y {
+  width: 5%;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  position: relative;
+  margin-top: -170px;
+  float: left;
+  padding-left: 300px;
+  background-color: white;
+}
+
+
+div.a {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+div.c {
+  text-align: left;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+div.d {
+  width: 120px;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  position: relative;
+  margin-top: -230px;
+  float: right;
+  padding-right: 600px;
+  background-color: white;
+}
+
+.paragraph {
+  display: inline;
+  color: #424b5a;
+  font-size: 18px;
   line-height: 160%;
   font-weight: 400;
   letter-spacing: -.2px;
 }
 
+.h4 {
+  display: inline;
+  color: #424b5a;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  letter-spacing: -.2px;
+  text-align: left;
+}
 
+.paragraph-two {
+  display: inline;
+  color: #0f1013;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  letter-spacing: -.2px;
+}
 
+.block.block-first {
+  margin-top: 48px;
+}
+
+.block {
+  height: 30px;
+  width: 30px;
+  /* display: flex;
+  -webkit-box-align: start;
+  align-items: flex-start; */
+}

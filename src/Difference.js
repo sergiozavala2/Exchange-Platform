@@ -87,7 +87,6 @@ function Difference() {
             </div>   
         </div>   
     );
-
 }
 
 export default Difference;

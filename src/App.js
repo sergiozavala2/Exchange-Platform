@@ -1,4 +1,3 @@
-import logo from './assets/img/Bitcoin-Logo.png';
 import './App.css';
 import Coinbase from './Coinbase';
 import CoinAPI from './CoinAPI';

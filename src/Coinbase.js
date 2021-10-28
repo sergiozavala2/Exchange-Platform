@@ -4,48 +4,48 @@ import "./App.css";
 const axios = require("axios");
 
 function Coinbase() {
-  const [coinApiBtcResponse, setCoinApiBtcResponse] = useState();
-  const [coinApiEthResponse, setCoinApiEthResponse] = useState();
+  // const [coinApiBtcResponse, setCoinApiBtcResponse] = useState();
+  // const [coinApiEthResponse, setCoinApiEthResponse] = useState();
   const [coinbaseBtcResponse, setCoinbaseBtcResponse] = useState();
   const [coinbaseEthResponse, setCoinbaseEthResponse] = useState();
 
-  useEffect(() => {
-    //BTC from CoinAPI
-    axios
-      .get("https://rest.coinapi.io/v1/exchangerate/BTC/USD", {
-        headers: {
-          Authorization: `F45B9A2B-A2B8-48D8-95FE-9943A80B19BF`,
-        },
-      })
-      .then(function (response) {
-        // handle success
-        setCoinApiBtcResponse(response);
-        console.log(response);
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-      })
-    }, []);
+  // useEffect(() => {
+  //   //BTC from CoinAPI
+  //   axios
+  //     .get("https://rest.coinapi.io/v1/exchangerate/BTC/USD", {
+  //       headers: {
+  //         Authorization: `F45B9A2B-A2B8-48D8-95FE-9943A80B19BF`,
+  //       },
+  //     })
+  //     .then(function (response) {
+  //       // handle success
+  //       setCoinApiBtcResponse(response);
+  //       console.log(response);
+  //     })
+  //     .catch(function (error) {
+  //       // handle error
+  //       console.log(error);
+  //     })
+  //   }, []);
 
-  useEffect(() => {
-    // ETH from Coin API
-    axios
-      .get("https://rest.coinapi.io/v1/exchangerate/ETH/USD", {
-        headers: {
-          Authorization: `F45B9A2B-A2B8-48D8-95FE-9943A80B19BF`,
-        },
-      })
-      .then(function (response) {
-        // handle success
-        setCoinApiEthResponse(response);
-        console.log(response);
-      })
-      .catch(function (error) {
-        // handle error
-        console.log(error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   // ETH from Coin API
+  //   axios
+  //     .get("https://rest.coinapi.io/v1/exchangerate/ETH/USD", {
+  //       headers: {
+  //         Authorization: `F45B9A2B-A2B8-48D8-95FE-9943A80B19BF`,
+  //       },
+  //     })
+  //     .then(function (response) {
+  //       // handle success
+  //       setCoinApiEthResponse(response);
+  //       console.log(response);
+  //     })
+  //     .catch(function (error) {
+  //       // handle error
+  //       console.log(error);
+  //     });
+  // }, []);
 
   useEffect(() => {
     // BTC from Coinbase

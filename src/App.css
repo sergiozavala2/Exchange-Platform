@@ -26,18 +26,13 @@
 
 .App-header-Bitcoin-Logo {
   background-color: #eee4e4;
-  /* min-height: 100vh;  */
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  /* color: white; */
 }
 
 .App-header-Eth-Logo {
   background-color: #fbfbff;
-  /* min-height: 50vh; */
   display: flex;
   align-items: center;
   justify-content: right;
@@ -45,7 +40,6 @@
 
 .App-header-Phone-Logo {
   background-color: #fbfbff;
-  /* min-height: 50vh; */
   display: flex;
   align-items: center;
   justify-content: left;
@@ -54,9 +48,6 @@
 .App-link {
   color: #060542;
 }
-
-
-/* New code  */
 
 .container {
   position: relative;
@@ -95,11 +86,9 @@
 .w-col {
   position: relative;
   float: right;
-  /* width: 100%; */
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
 .w-col-phone {
@@ -107,7 +96,6 @@
   top: -100px;
   float: right;
   padding-right: 40px;
-  
 }
 
 .w-col-6 {
@@ -192,7 +180,6 @@ div.y {
   background-color: white;
 }
 
-
 div.a {
   text-align: left;
   margin-top: 30px;
@@ -252,9 +239,6 @@ div.d {
 .block {
   height: 30px;
   width: 30px;
-  /* display: flex;
-  -webkit-box-align: start;
-  align-items: flex-start; */
 }
 
 .price-difference{

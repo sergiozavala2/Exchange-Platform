@@ -1,5 +1,6 @@
-# **Instagram**
-> Add a description of the project here
+# **Platform Exchange**
+> This webpage shows the prices of Bitcoin and Ethereum from Coinbase and CoinAPI platforms
+> It recommends on which exchange to buy and/or sell. 
 
 ### Setting up Env
 1. Clone an application from the repository
